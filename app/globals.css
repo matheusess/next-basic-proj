@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --color-custom-green: #2d7d6e;
+  --color-custom-green-50: #e7f7f5;
+  --color-custom-green-100: #cfeceb;
+  --color-custom-green-200: #9fd9d6;
+  --color-custom-green-300: #6fc5c0;
+  --color-custom-green-400: #43b5a0;
+  --color-custom-green-500: #2d7d6e;
+  --color-custom-green-600: #265f5a;
+  --color-custom-green-700: #1e4b47;
+  --color-custom-green-800: #163834;
+  --color-custom-green-900: #0e2421;
+}
