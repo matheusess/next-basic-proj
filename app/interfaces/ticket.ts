@@ -8,7 +8,14 @@ export interface Ticket {
     createdAt: Timestamp;
     latestVersion: number;
     isActive: boolean;
+    firstFile?: {
+        url: string;
+        version: number;
+        updatedAt: Timestamp;
+        updatedBy: string;
+    };
     comments: Array<{
+        uploadedFile: boolean;
         version: number;
         fileUrl: string;
         comment: string;

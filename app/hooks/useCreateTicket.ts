@@ -35,7 +35,7 @@ export function useCreateTicket() {
                 createdBy: auth.currentUser?.uid || "unknown",
                 createdAt: serverTimestamp(),
                 isActive: true,
-                latestFile: fileUrl
+                firstFile: fileUrl
                     ? {
                         url: fileUrl,
                         version,
