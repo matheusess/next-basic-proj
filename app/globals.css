@@ -13,3 +13,8 @@
   --color-custom-green-800: #163834;
   --color-custom-green-900: #0e2421;
 }
+
+button,
+a {
+  cursor: pointer;
+}
