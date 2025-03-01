@@ -122,7 +122,7 @@ export default function TicketDetailPage() {
         <div className="md:col-span-1">
           <div className="flex justify-between items-center mb-4">
             <PrimaryButton
-              text="+ Add new comment"
+              text="+ Add new version"
               onClick={() => setIsCommentModalOpen(true)}
             />
           </div>
